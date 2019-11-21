@@ -1,0 +1,28 @@
+body {
+    background-color: 01003b;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    padding-top: 6vw;
+}
+
+button {
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.3vw;
+    border: 0.15vw solid white;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+img.presize {
+  height:60%;
+}
+
+img.sp{
+  display: none;
+}
