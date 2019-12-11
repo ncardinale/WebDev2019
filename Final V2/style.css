@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    padding-top: 6vw;
+}
+
+button {
+    margin-top: 200px;
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.3vw;
+    border: 0.15vw solid white;
+    transition-duration: 0.3s;
+}
+
+.leftButton {
+  /*margin-left: -150px;*/
+}
+
+.rightButton {
+  /*margin-left: 150px;*/
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+img.standardWall {
+  height:70%;
+  z-index: -1;
+  position: absolute;
+}
+
+img.standardInv {
+ z-index: 1;
+ height:70%;
+position: absolute;
+}
+
+img.stdBackplate{
+height:70%;
+z-index: -1;
+position: static;
+}
+
+img.invisible{
+  display: none;
+}
