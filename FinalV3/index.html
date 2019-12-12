@@ -1,0 +1,43 @@
+<html>
+
+  <head>
+		<title> Self Portrait V2 </title>
+		    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+		    <meta charset="utf-8">
+		      <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="script.js" defer></script>
+	</head>
+  <body>
+      <!--<a href="https://ww.google.com"> Test </a>
+      Make this 8 Bit text! possibly an image that if you throw a dar at you hear owner yell at you -->
+
+      <div class="center-third" style="text-align:right;">
+        <button class="leftButton" id="BLeft" type="button">
+          <img src = "Images/Button-Left.png">
+        </button>
+      </div>
+
+      <div class="center-third">
+      <!-- Walls -->
+        <img class="invisible standardWall" id="door" src="Images/Door.jpg">
+        <img class="invisible standardWall" id="frame" src="Images/Frame.jpg">
+        <img class="invisible standardWall" id="bookshelf" src="Images/Bookshelf.jpg">
+        <img class="invisible standardWall" id="window" src="Images/Window.jpg">
+        <img class="standardWall" id="inventory" src="Images/Inventory.png">
+      <!-- items-->
+        <img class="standardInv" id="door-windowkey" src="Images/Door-WindowKey.png" usemap="#door-windowkeymap">
+          <map name="door-windowkeymap"><area id= "windowkeyarea" shape="rect" coords="60,180,80,240"></map>
+      <!--Inventory-->
+        <img class="invisible standardInv" id="inv-windowkey" src="Images/Inv-WindowKey.png">
+
+      </div>
+
+      <div class="center-third">
+        <button class="rightButton" id="BRight" type="button">
+          <img src = "Images/Button-Right.png">
+        </button>
+      </div>
+  </body>
+</html>
