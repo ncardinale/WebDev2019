@@ -1,25 +1,59 @@
-.special {
-
-  background-color: rgb(79,185,227);
-   padding: 10px;
-   color: #fff;
-
-}
-
 body {
-  background-color:purple;
+    background-color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    padding-top: 6vw;
 }
 
-.test1 {
-  background-color: rgb(200,85,127);
-   padding: 10px;
-   color: red;
-   text-align: center;
+button img {
+  height: 100px;
 }
 
-.test2 {
-  background-color: rgb(200,85,127);
-   padding: 10px;
-   color: red;
-   text-align: center;
+button {
+    margin-top: 200px;
+    font-size: 3vw;
+    background-color: white;
+    color: white;
+    border-radius: 0.3vw;
+    border: 0.15vw solid white;
+    transition-duration: 0.3s;
+    position: absolute;
+    display: inline-block;
+
+}
+
+.leftButton {
+  margin-left: -270px;
+}
+
+.rightButton {
+  margin-left: 150px;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+img.standardWall {
+  height:70%;
+  z-index: 2;
+    position: absolute;
+}
+
+img.standardInv {
+ z-index: 3;
+ height:70%;
+    position: absolute;
+}
+
+img.invisible{
+  display: none;
+}
+
+div.center-third {
+    margin: auto;
+    width: 31%;
+    display: inline-block;
 }
